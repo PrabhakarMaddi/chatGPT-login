@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #2d333a;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+    img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display:grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+div{
+    margin: 10px;
+}
+
+
+.body{
+    height: 400px;
+    width: 450px;
+}
+input{
+    width: 320px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 1rem;
+    border-color: lightgrey;
+
+}
+button{
+    width: 320px;
+    height: 52px;
+    border-radius: 7px;
+    display:block;
+    border-color:lightgrey;
+    font-weight: 500;
+    font-size:16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#continue{
+    width: 320px;
+    height: 52px;
+    border-radius: 7px;
+    background-color: #10a37f;
+    color: white;
+    border: #10a37f
+}
+a{
+    color:#10a37f;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
+#or{
+   margin-left: 100px;
+}
+#login{
+    margin-left:50px;
+    font-size: small;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+}
+button:hover{
+ background-color: lightgrey;
+ transition: ease-in 0.1s;
+}
+#continue:hover{
+    background-color: #28866f;
+    transition: ease-in 0.1s;
+}
